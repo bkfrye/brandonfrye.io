@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 225.3 174.1">
+  <title>shapes</title>
+  <g id="shape-a">
+    <g>
+      <circle cx="404" cy="149.4" r="2.5" transform="translate(-216.2 -103.1) rotate(-6.1)" />
+      <circle cx="407.4" cy="181.3" r="2.5" transform="translate(-219.5 -102.6) rotate(-6.1)" />
+      <circle cx="410.8" cy="213.2" r="2.5" transform="translate(-222.9 -102.1) rotate(-6.1)" />
+      <circle cx="414.2" cy="245.2" r="2.5" transform="translate(-226.3 -101.5) rotate(-6.1)" />
+      <circle cx="417.6" cy="277.1" r="2.5" transform="translate(-229.6 -101) rotate(-6.1)" />
+      <circle cx="378.8" cy="152" r="2.5" transform="translate(-216.6 -105.8) rotate(-6.1)" />
+      <circle cx="382.2" cy="184" r="2.5" transform="translate(-220 -105.3) rotate(-6.1)" />
+      <circle cx="385.6" cy="215.9" r="2.5" transform="translate(-223.3 -104.7) rotate(-6.1)" />
+      <circle cx="389" cy="247.8" r="2.5" transform="translate(-226.7 -104.2) rotate(-6.1)" />
+      <circle cx="392.4" cy="279.8" r="2.5" transform="translate(-230.1 -103.6) rotate(-6.1)" />
+      <circle cx="353.6" cy="154.7" r="2.5" transform="translate(-217 -108.5) rotate(-6.1)" />
+      <circle cx="357" cy="186.7" r="2.5" transform="translate(-220.4 -107.9) rotate(-6.1)" />
+      <circle cx="360.4" cy="218.6" r="2.5" transform="translate(-223.8 -107.4) rotate(-6.1)" />
+      <circle cx="363.8" cy="250.5" r="2.5" transform="translate(-227.1 -106.8) rotate(-6.1)" />
+      <circle cx="367.2" cy="282.5" r="2.5" transform="translate(-230.5 -106.3) rotate(-6.1)" />
+      <circle cx="328.4" cy="157.4" r="2.5" transform="translate(-217.4 -111.1) rotate(-6.1)" />
+      <circle cx="331.8" cy="189.4" r="2.5" transform="translate(-220.8 -110.6) rotate(-6.1)" />
+      <circle cx="335.2" cy="221.3" r="2.5" transform="translate(-224.2 -110) rotate(-6.1)" />
+      <circle cx="338.6" cy="253.2" r="2.5" transform="translate(-227.5 -109.5) rotate(-6.1)" />
+      <circle cx="342" cy="285.1" r="2.5" transform="translate(-230.9 -109) rotate(-6.1)" />
+      <circle cx="303.1" cy="160.1" r="2.5" transform="translate(-217.9 -113.8) rotate(-6.1)" />
+      <circle cx="306.6" cy="192" r="2.5" transform="translate(-221.2 -113.2) rotate(-6.1)" />
+      <circle cx="310" cy="224" r="2.5" transform="translate(-224.6 -112.7) rotate(-6.1)" />
+      <circle cx="313.4" cy="255.9" r="2.5" transform="translate(-228 -112.2) rotate(-6.1)" />
+      <circle cx="316.8" cy="287.8" r="2.5" transform="translate(-231.3 -111.6) rotate(-6.1)" />
+      <circle cx="277.9" cy="162.8" r="2.5" transform="translate(-218.3 -116.4) rotate(-6.1)" />
+      <circle cx="281.3" cy="194.7" r="2.5" transform="translate(-221.7 -115.9) rotate(-6.1)" />
+      <circle cx="284.7" cy="226.7" r="2.5" transform="translate(-225 -115.4) rotate(-6.1)" />
+      <circle cx="288.2" cy="258.6" r="2.5" transform="translate(-228.4 -114.8) rotate(-6.1)" />
+      <circle cx="291.6" cy="290.5" r="2.5" transform="translate(-231.8 -114.3) rotate(-6.1)" />
+      <circle cx="252.7" cy="165.5" r="2.5" transform="translate(-218.7 -119.1) rotate(-6.1)" />
+      <circle cx="256.1" cy="197.4" r="2.5" transform="translate(-222.1 -118.6) rotate(-6.1)" />
+      <circle cx="259.5" cy="229.4" r="2.5" transform="translate(-225.5 -118) rotate(-6.1)" />
+      <circle cx="262.9" cy="261.3" r="2.5" transform="translate(-228.8 -117.5) rotate(-6.1)" />
+      <circle cx="266.4" cy="293.2" r="2.5" transform="translate(-232.2 -116.9) rotate(-6.1)" />
+      <circle cx="227.5" cy="168.2" r="2.5" transform="translate(-219.2 -121.7) rotate(-6.1)" />
+      <circle cx="230.9" cy="200.1" r="2.5" transform="translate(-222.5 -121.2) rotate(-6.1)" />
+      <circle cx="234.3" cy="232" r="2.5" transform="translate(-225.9 -120.7) rotate(-6.1)" />
+      <circle cx="237.7" cy="264" r="2.5" transform="translate(-229.3 -120.1) rotate(-6.1)" />
+      <circle cx="241.1" cy="295.9" r="2.5" transform="translate(-232.6 -119.6) rotate(-6.1)" />
+    </g>
+  </g>
+  <g id="shape-b">
+    <circle cx="97.4" cy="44.2" r="36" />
+  </g>
+  <g id="shape-c">
+    <g>
+      <rect x="315.7" y="169.7" width="98.6" height="98.55" rx="12" ry="12" transform="translate(-263.2 65) rotate(-30)" />
+    </g>
+  </g>
+  <g id="shape-d">
+    <rect x="253.1" y="160.9" width="61.6" height="172.56" rx="12" ry="12" transform="translate(-289.9 162.9) rotate(-50.6)" />
+  </g>
+</svg>
