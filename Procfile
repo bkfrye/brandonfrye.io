@@ -1,1 +1,1 @@
-web: yarn build && node server
+web: node server
