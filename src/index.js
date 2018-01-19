@@ -19,10 +19,5 @@ if (rootElement.hasChildNodes()) {
         </BrowserRouter>
     ), rootElement)
 }
-render((
-    <BrowserRouter>
-        <App />
-    </BrowserRouter>
-), document.getElementById('root'))
 
 ServiceWorker()
