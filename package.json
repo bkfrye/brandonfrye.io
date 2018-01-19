@@ -30,6 +30,8 @@
     "gsap": "^1.20.3",
     "html-webpack-plugin": "2.29.0",
     "jest": "20.0.4",
+    "new-relic-agent-react": "^2.0.1",
+    "newrelic": "^2.6.1",
     "object-assign": "4.1.1",
     "postcss-cssnext": "^3.0.2",
     "postcss-flexbugs-fixes": "3.2.0",
