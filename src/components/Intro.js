@@ -1,12 +1,22 @@
 import React, {Component} from 'react'
+import { Link } from 'react-router-dom'
 import {TweenMax, Power2} from 'gsap'
 import GSAP from 'react-gsap-enhancer'
+import Obfuscate from 'react-obfuscate'
 import DataAPI from '../api'
 import SVGInline from 'react-svg-inline'
 import Shapes from './shapes.svg'
 
 class Intro extends Component {
     componentDidMount() {
+
+        TweenMax.from('.more-info', 0.5, {
+            opacity: 0,
+            y: '+=20',
+            ease: Power2.easeOut,
+            delay: 1.3
+        })
+
         TweenMax.staggerFrom('.text', 1.4, {
             rotation: -90,
             ease: Power2.easeOut,
@@ -47,7 +57,19 @@ class Intro extends Component {
                     <h2 className="text">{DataAPI.content.intro.copy}</h2>
                     <h1 className="text">{DataAPI.content.intro.title}</h1>
                 </div>
+                <div className="more-info">
+                    <div className="email">
+                        <Obfuscate
+                            email="brandonkfrye@gmail.com"
+                            headers={{ subject: 'Request from brandonfrye.io' }}
+                        />
+                    </div>
+                    <div className="resume-link">
+                        <Link to="/resume">View Resume</Link>
+                    </div>
+                </div>
             </div>
+
         )
     }
 }

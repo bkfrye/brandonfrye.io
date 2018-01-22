@@ -35,9 +35,7 @@ pre {
     white-space: pre-wrap;
     width: 300px;
     word-wrap: break-word;
-
 }
-
 
 /*
 * === HEADER ===
@@ -142,6 +140,60 @@ header.header {
     width: 100%;
 }
 
+.more-info {
+    align-items: center;
+    bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    position: absolute;
+    margin: 0 auto;
+    max-width: var(--site-width);
+    right: 0;
+    width: calc(100% - 30px);
+    z-index: 10;
+
+}
+
+.email {
+
+    font-size: 11px;
+
+
+    & a {
+        color: var(--black);
+        position: relative;
+        text-decoration: none;
+    }
+}
+.email a:before {
+    background-color: var(--magenta);
+    bottom: -4px;
+    content: '';
+    left: 0;
+    height: 2px;
+    opacity: 0.5;
+    position: absolute;
+    transition: width 123ms ease-in-out;
+    width: 0;
+}
+
+.email a:hover {
+    &:before {
+        width: 100%;
+    }
+}
+
+.resume-link {
+
+    font-size: 12px;
+
+
+    & a {
+        color: var(--magenta)
+    }
+}
+
 
 /*
 * === BODY ===
@@ -149,6 +201,7 @@ header.header {
 
 main {
     margin-left: 55px;
+    position: relative;
     width: calc(100% - 55px);
 
     @media (width > 800px) {
@@ -257,9 +310,44 @@ h2 {
 
 
 /*
-* === BACKGROUND ===
+* === Resume Page ===
 */
 
+.resume .ReactPDF__Page__canvas {
+    box-shadow: 0 0 8px rgba(31,35,32,0.3);
+    height: 100%;
+    margin: 100px auto 30px;
+}
+
+.page-num {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+/*
+* === FOOTER ===
+*/
+.footer-bar {
+    display: flex;
+    height: 11px;
+}
+
+.footer-bar-item {
+    flex: 1;
+    height: 100%;
+    opacity: 0.5;
+
+    &:first-child {
+        background-color: var(--cyan)
+    }
+    &:nth-child(2) {
+        background-color: var(--magenta)
+    }
+    &:nth-child(3) {
+        background-color: var(--yellow)
+    }
+}
 
 
 /*

@@ -21,7 +21,7 @@
 - [ ] Clean up file architecture
 - [ ] Add 404 page
 - [ ] Add event tracking to Google Analytics
-- [ ] Include resume download
+- [x] Include resume 
 
 ### Notes
 This site was intended to help me explore building a basic site with React. Feel free to send a PR with improvements!
