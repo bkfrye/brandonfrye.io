@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import Head from './Head'
 import Header from './Header'
 import Main from './Main'
@@ -25,12 +26,14 @@ class App extends Component {
         }
 
         return (
-            <div>
-                <Head />
-                <Header />
-                <Main />
-                <Footer />
-            </div>
+            <Router>
+                <div>
+                    <Head />
+                    <Header />
+                    <Main />
+                    <Footer />
+                </div>
+            </Router>
         )
     }
 }
