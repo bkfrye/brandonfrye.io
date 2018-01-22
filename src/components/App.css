@@ -28,13 +28,18 @@ a {
 }
 
 pre {
-    font-size: 13px;
+    border: 1px solid lightgray;
     margin: 50px auto 0;
     max-width: 100%;
+    padding: 1em;
     text-align: left;
     white-space: pre-wrap;
     width: 300px;
     word-wrap: break-word;
+}
+
+pre code {
+    font-size: 13px;
 }
 
 /*
