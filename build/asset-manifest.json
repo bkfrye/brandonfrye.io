@@ -1,8 +1,11 @@
 {
-  "main.css": "static/css/main.00f48f1f.css",
-  "main.css.map": "static/css/main.00f48f1f.css.map",
-  "main.js": "static/js/main.3d333981.js",
-  "main.js.map": "static/js/main.3d333981.js.map",
+  "main.css": "static/css/main.453a42b2.css",
+  "main.css.map": "static/css/main.453a42b2.css.map",
+  "main.js": "static/js/main.6293cdcc.js",
+  "main.js.map": "static/js/main.6293cdcc.js.map",
   "static/media/brandon_frye_resume.pdf": "static/media/brandon_frye_resume.8d8979cd.pdf",
-  "static/media/brandonfrye.jpg": "static/media/brandonfrye.6bf37552.jpg"
+  "static/media/brandonfrye.jpg": "static/media/brandonfrye.6bf37552.jpg",
+  "static/media/getWeird.gif": "static/media/getWeird.a12c1bcb.gif",
+  "static/media/learning.gif": "static/media/learning.2c7e2f5b.gif",
+  "static/media/seeAmazingWork.gif": "static/media/seeAmazingWork.a31759a7.gif"
 }
