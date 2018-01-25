@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import Obfuscate from 'react-obfuscate'
 
 class Footer extends Component {
     constructor() {
@@ -25,7 +26,15 @@ class Footer extends Component {
 	render() {
 		return (
             <div>
-                <div className="today-msg">Happy {this.state.date}!</div>
+                <div className="footer-info">
+                    <div className="email">
+                        <Obfuscate
+                            email="brandonkfrye@gmail.com"
+                            headers={{ subject: 'Request from brandonfrye.io' }}
+                        />
+                    </div>
+                    <div className="today-msg">Happy {this.state.date}!</div>
+                </div>
 
     			<div className="footer-bar">
     				<div className="footer-bar-item"></div>

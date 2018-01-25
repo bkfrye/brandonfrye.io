@@ -156,42 +156,17 @@ header.header {
 
 }
 
-.email {
-
-    font-size: 11px;
-
-
-    & a {
-        color: var(--black);
-        position: relative;
-        text-decoration: none;
-    }
-}
-.email a:before {
-    background-color: var(--magenta);
-    bottom: -4px;
-    content: '';
-    left: 0;
-    height: 2px;
-    opacity: 0.5;
-    position: absolute;
-    transition: width 123ms ease-in-out;
-    width: 0;
-}
-
-.email a:hover {
-    &:before {
-        width: 100%;
-    }
-}
 
 .resume-link {
-
-    font-size: 12px;
-
+    font-size: 16px;
+    margin: 0 auto 1.25em;
 
     & a {
-        color: var(--magenta)
+        border: 2px solid rgba(236, 0, 140, 0.7);
+        color: var(--magenta);
+        padding: 9px 18px;
+        text-align: center;
+        text-decoration: none;
     }
 }
 
@@ -344,11 +319,47 @@ h2 {
     }
 }
 
-.today-msg {
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.today-msg,
+.email {
     font-size: 12px;
     line-height: 1.4;
+}
+
+.today-msg {
     margin: 0 15px 17px;
-    text-align: right;
+}
+
+
+.email {
+    margin-left: 15px;
+
+    & a {
+        color: var(--black);
+        position: relative;
+        text-decoration: none;
+    }
+}
+.email a:before {
+    background-color: var(--magenta);
+    bottom: -4px;
+    content: '';
+    left: 0;
+    height: 2px;
+    opacity: 0.5;
+    position: absolute;
+    transition: width 123ms ease-in-out;
+    width: 0;
+}
+
+.email a:hover {
+    &:before {
+        width: 100%;
+    }
 }
 
 
