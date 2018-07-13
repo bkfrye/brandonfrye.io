@@ -93,7 +93,7 @@
       "node"
     ]
   },
-  "proxy": "localhost:5000",
+  "proxy": "http://localhost:5000",
   "engines": {
     "node": "9.4.0"
   },
@@ -104,5 +104,13 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  }
+  },
+  "static": {
+    "paths": [
+      "/",
+      "/resume"
+    ],
+    "outputPath": "build"
+  },
+  "devDependencies": {}
 }

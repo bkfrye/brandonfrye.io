@@ -17,9 +17,9 @@ class Head extends Component {
 				<meta property="og:title" content="Brandon Frye - Front-end Developer and Designer" />
 				<meta property="twitter:title" content="Brandon Frye - Front-end Developer and Designer" />
 				<meta property="og:url" content={window.location.href} />
-				<meta name="description" content="Brandon Frye is developer and designer with a passion for UX. Building beautiful websites is the core of what I love to do."/>
-				<meta name="og:description" content="Brandon Frye is developer and designer with a passion for UX. Building beautiful websites is the core of what I love to do."/>
-				<meta name="twitter:description" content="Brandon Frye is developer and designer with a passion for UX. Building beautiful websites is the core of what I love to do."/>
+				<meta name="description" content="Brandon Frye is developer and designer with a passion for UX. Creating new web experiences for the modern web with web apps, mobile apps, and websites."/>
+				<meta name="og:description" content="Brandon Frye is developer and designer with a passion for UX. Creating new web experiences for the modern web with web apps, mobile apps, and websites."/>
+				<meta name="twitter:description" content="Brandon Frye is developer and designer with a passion for UX. Creating new web experiences for the modern web with web apps, mobile apps, and websites."/>
 				<meta property="og:image" content={screenshot} />
 				<meta property="twitter:image" content={screenshot} />
 			</Helmet>
