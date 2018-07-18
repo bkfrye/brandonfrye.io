@@ -28,9 +28,12 @@ class Footer extends Component {
       <div>
 				<div className="footer-info">
 					<div className="email">
-						<Obfuscate email="brandonkfrye@gmail.com" headers={{
+						<Obfuscate
+              email="brandonkfrye@gmail.com"
+              headers={{
 								subject: 'Request from brandonfrye.io'
-							}}/>
+							}}
+            />
 					</div>
 					<div className="today-msg">Happy {this.state.date}!</div>
 				</div>
