@@ -158,6 +158,12 @@ header.header {
 		padding: 9px 18px;
 		text-align: center;
 		text-decoration: none;
+    transition: all 194ms ease-in-out;
+
+    &:hover {
+      background-color: var(--magenta);
+      color: white;
+    }
 	}
 }
 
