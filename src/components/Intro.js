@@ -60,7 +60,7 @@ class Intro extends Component {
 	}
 	render() {
 		return (
-      <div>
+      <section className="intro">
   			<SVGInline svg={Shapes} className="shapes"/>
 
   			<div className="content">
@@ -68,12 +68,11 @@ class Intro extends Component {
   				<h1 className="text">{this.state.title}</h1>
   			</div>
   			<div className="more-info">
-
   				<div className="resume-link">
   					<Link to="/resume">View Resume ></Link>
   				</div>
   			</div>
-  		</div>
+  		</section>
 		)
   }
 }

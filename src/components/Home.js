@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import GSAP from 'react-gsap-enhancer'
 import DataAPI from '../api.js'
 import Intro from './Intro'
+import SSH from './SSH'
 
 class Home extends Component {
 
@@ -15,17 +16,12 @@ class Home extends Component {
 	}
 
 	render() {
-		return (<div>
-			<section className="intro">
+		return (
+      <div>
 				<Intro/>
-			</section>
-
-			<div className="ssh">
-				<pre>
-          <code>{this.state.sshKey}</code>
-        </pre>
-			</div>
-		</div>)
+        <SSH />
+  		</div>
+    )
 	}
 }
 
