@@ -8,16 +8,19 @@ class SSH extends Component {
 		super()
 		let data = DataAPI.content;
 
-		this.state = {
-			title: data.intro.title,
-			copy: data.intro.copy
-		}
+    this.state = {
+      ssh: data.ssh
+    }
 	}
+
+  componentDidMount() {
+    console.log(this.state.ssh.key)
+  }
 	render() {
 		return (
       <div className="ssh">
         <pre>
-          <code>{this.state.sshKey}</code>
+          <code>{this.state.ssh.key} </code>
         </pre>
       </div>
 		)
