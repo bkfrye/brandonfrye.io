@@ -3,6 +3,7 @@ const path = require('path')
 const app = express()
 const robots = require('express-robots')
 
+app.use(require('prerender-node').set('prerenderToken', '2J9WnuZJZYnaCOL4flB0'));
 app.use(express.static(path.join(__dirname, '..', 'build')))
 app.use(robots({ UserAgent: '*', Disallow: '' }))
 
@@ -18,10 +19,6 @@ app.get('*', function(req, res) {
 app.get('/resume', function(reg, res) {
 	res.sendFile(path.join(__dirname, '..', 'build', 'resume.html'));
 })
-
-// app.get('/viget', function(reg, res) {
-// 	res.sendFile(path.join(__dirname, '..', 'build', 'viget.html'));
-// })
 
 app.listen(process.env.PORT || 5000)
 
