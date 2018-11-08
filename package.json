@@ -55,8 +55,9 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn dev\"",
     "server": "nodemon server/index.js",
-    "start": "node scripts/start.js",
+    "dev": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
