@@ -13,9 +13,6 @@ class SSH extends Component {
     }
 	}
 
-  componentDidMount() {
-    console.log(this.state.ssh.key)
-  }
 	render() {
 		return (
       <div className="ssh">
