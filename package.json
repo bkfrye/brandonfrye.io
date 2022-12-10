@@ -6,7 +6,7 @@
   "author": "Brandon Frye <brandonkfrye@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "express-robots": "^0.1.6",
     "prerender-node": "^3.2.1"
   },
